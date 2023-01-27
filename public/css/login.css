@@ -1,0 +1,36 @@
+@import url("style.css");
+
+input{
+    border: none;
+    text-align: center;
+    border-radius: 25px;
+    height: 35px;
+
+}
+input:invalid {
+    border: 2px red;
+}
+.control-form{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    justify-content: center;
+    margin: 20px auto;
+    height: 70px;
+
+
+}
+.send-btn a{
+    color: white;
+}
+.send-btn {
+    color: white;
+    background-color: var(--celeste);
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+.send-btn:hover {
+    background-color:#0022AA ;
+}
